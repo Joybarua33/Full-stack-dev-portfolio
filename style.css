@@ -262,3 +262,21 @@ footer textarea{
     padding: 10px 20px;
     border: none;
 }
+
+/* Responsive media query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-card, .resume-container, footer, .about-items{
+        flex-direction: column;
+    }
+    footer, .about-section, .about-item{
+        padding: 10px 0px;
+    }
+    .footer-col{
+        margin-top: 80px;
+    }
+}
